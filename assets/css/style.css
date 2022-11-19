@@ -1,0 +1,75 @@
+
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background-position - define a posição da imagem 
+    background-position : 1-coluna 2-linha
+    ex : background-position : right left
+  
+   */
+
+   .bloco {
+    background-image: url(../img/wallpaper003.jpg);
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 200px;
+    margin: 10px;
+    color:rgb(39, 3, 2);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+   }
+
+   .bloco > p {
+    background-color: orange;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   }
+
+
+   /* BACKGROUND-REPEAT */
+   #q1 {
+    background-repeat: no-repeat;
+}
+
+   #q2 {
+    background-repeat: no-repeat;
+ }
+
+   #q3 {
+    background-repeat: no-repeat;
+   }
+
+   #q4 {
+    background-repeat: no-repeat;
+   }
+
+   #q5 {
+    background-repeat: no-repeat;
+   }
+
+   /* BACKGROUD-POSITIONS */
+   #q1 {
+    background-position: left top;
+   }
+
+   #q2 {
+    background-position: right top;
+   }
+
+   #q3 {
+    background-position: left bottom;
+   }
+
+   #q4 {
+    background-position: right bottom;
+   }
+
+   #q5 {
+    background-position: center center;
+   }
